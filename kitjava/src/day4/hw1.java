@@ -15,5 +15,11 @@ public class hw1 {
 		int second = sc.nextInt();
 		System.out.print("¼¼¹øÂ° : ");
 		int third = sc.nextInt();
+		
+		int max = (first > second) ? (first>third) ? first : third : (second > third) ? second : third;
+		System.out.println("max : " + max);
+		
+		int min = (first < second) ? (first<third) ? first : third : (second < third) ? second : third;
+		System.out.println("min : " + min);
 	}
 }
