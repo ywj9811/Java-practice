@@ -9,8 +9,6 @@ public class test {
 		int a = sc.nextInt();
 		
 		a = a/10;
-		if(a>10)
-			System.out.println("100점 이내로 입력하세요");
 		
 		switch(a) {
 		case 10:
