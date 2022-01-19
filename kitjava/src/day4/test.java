@@ -31,8 +31,17 @@ public class test {
 			System.out.println("D학점");
 		break;
 		
-		default:
+		case 5:
+		case 4:
+		case 3:
+		case 2:
+		case 1:
+		case 0:
 			System.out.println("F학점");
+		break;
+		
+		default:
+			System.out.println("100점 이내로 입력하시오");
 		break;
 		}
 	}
