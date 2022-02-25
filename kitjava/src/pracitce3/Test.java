@@ -33,20 +33,20 @@ class TextMessageVer2 extends TextMessage {
 public class Test {
 	public static void main(String[] args) {
 		TextMessage msgObj;
-//		msgObj = new TextMessage("클래스는 공부할 게 많다.");
-//		msgObj.show();
-//		
-//		msgObj = new TextMessageVer2("YG", "반복만이 살길이다.");
-//		msgObj.show();
-		for(int i = 0; i < 2; i++) {
-			if(i == 0) {
-				msgObj = new TextMessage("클래스는 공부할 게 많다.");
-				msgObj.show();
-			}
-			else {
-				msgObj = new TextMessageVer2("YG", "반복만이 살길이다.");
-				msgObj.show();
-			}
-		}
+		msgObj = new TextMessage("클래스는 공부할 게 많다.");
+		msgObj.show();
+		
+		msgObj = new TextMessageVer2("YG", "반복만이 살길이다.");
+		msgObj.show();
+//		for(int i = 0; i < 2; i++) {
+//			if(i == 0) {
+//				msgObj = new TextMessage("클래스는 공부할 게 많다.");
+//				msgObj.show();
+//			}
+//			else {
+//				msgObj = new TextMessageVer2("YG", "반복만이 살길이다.");
+//				msgObj.show();
+//			}
+//		}
 	}
 }
