@@ -1,4 +1,4 @@
-package practice3;
+package pracitce3;
 
 public class RPSMain {
 	public static void main(String[] args) {

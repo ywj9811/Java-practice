@@ -1,4 +1,4 @@
-package practice3;
+package pracitce3;
 
 public class Person {
 	String p; //사람 이름

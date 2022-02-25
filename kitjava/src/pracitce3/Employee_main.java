@@ -1,4 +1,4 @@
-package practice3;
+package pracitce3;
 
 class Employee extends Person{
 	long salary;
