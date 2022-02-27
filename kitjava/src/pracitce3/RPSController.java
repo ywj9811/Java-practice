@@ -17,12 +17,12 @@ public class RPSController {
 	}
 	
 	boolean isValidPlayer() {
-		if(player == "가위")
+		if(player.equals("가위"))
 			return true;		
-		else if(player == "바위") {
+		else if(player.equals("바위")) {
 			return true;
 		}
-		else if(player == "보") {
+		else if(player.equals("보")) {
 			return true;
 		}
 		else{
@@ -36,22 +36,22 @@ public class RPSController {
 	} //사용자의 가위 바위 보 입력
 	
 	boolean winPlayer() {
-		if(com == "가위") {
-			if(player == "바위")
+		if(com.equals("가위")) {
+			if(player.equals("바위"))
 				return true;
 			else
 				return false;
 		}
 		
-		else if(com == "바위") {
-			if(player == "보")
+		else if(com.equals("바위")) {
+			if(player.equals("보"))
 				return true;
 			else
 				return false;
 		}
 		
 		else {
-			if(player == "가위")
+			if(player.equals("가위"))
 				return true;
 			else
 				return false;
@@ -59,7 +59,7 @@ public class RPSController {
 	}//plaeyr가 이겻으면 true 아니면 false
 	
 	boolean draw() {
-		if(com == player)
+		if(com.equals(player))
 			return true;
 		else
 			return false;
@@ -69,3 +69,4 @@ public class RPSController {
 		System.out.print("player(" + player + ") vs com(" + com + ") -> ");
 	}
 }
+
