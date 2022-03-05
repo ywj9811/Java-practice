@@ -36,5 +36,12 @@ public class Test3 {
 		//.indexOf(문자열) : 문자열의 위치(인덱스)/ 없을경우 -1을 리턴
 		System.out.println(str.lastIndexOf("발"));
 		//.lastIndexOf(문자열) : (오른쪽부터)
+		
+		//str.replace("_", " "); //문자열은 immutable한 객체이기 때문에,
+		   //이러식의 이용은 불가능
+		str = str.replace("_", " ");
+		//이렇게 해야함
+		System.out.println(str);
+		//.replace(old문자열, new문자열)
 	}
 }
