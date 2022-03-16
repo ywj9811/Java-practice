@@ -10,6 +10,7 @@ public class Wrapperuse {
 		System.out.println(num2.toString());
 		//num2.toString()이란 num2의 참조값이 가리키는 값을 출력
 		//sysout(num2)를 하게되면 자동으로 toString()이 작동함.
+		//따라서 따로 toString 사용x
 		
 		int sum = num + num2;
 		System.out.println(sum);
